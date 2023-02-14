@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AMPA_1</string>
+    <string name="desc">Krótki opis programu</string>
+    <string name="auth">Paweł Wieszczeczyński 260414</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="toast">Toast</string>
+    <string name="back">Back</string>
+    <string name="tbOn">Image invisible</string>
+    <string name="tbOff">Image visible</string>
+    <string name="radioButton1">abc xyz</string>
+    <string name="radioButton2">xyz abc</string>
+    <string name="text1">abc xyz</string>
+    <string name="text2">xyz abx</string>
+    <string name="texttag">tekst</string>
+    <string name="mailtag">e-mail</string>
+    <string name="numbertag">liczba</string>
+    <string name="phnumbertag">Tel.</string>
+</resources>

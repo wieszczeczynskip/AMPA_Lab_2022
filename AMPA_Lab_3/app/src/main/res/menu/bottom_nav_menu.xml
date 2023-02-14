@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/left_frag"
+        android:icon="@android:drawable/ic_media_rew"
+        android:title="Left" />
+    <item
+        android:id="@+id/center_frag"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="Center" />
+    <item
+        android:id="@+id/right_frag"
+        android:icon="@android:drawable/ic_media_ff"
+        android:title="Right" />
+    <item
+        android:id="@+id/rightright_frag"
+        android:icon="@android:drawable/ic_media_ff"
+        android:title="RightRight" />
+</menu>

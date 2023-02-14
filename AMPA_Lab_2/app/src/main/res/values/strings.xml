@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AMPA_2</string>
+    <string name="bn_left">Left</string>
+    <string name="bn_right">Right</string>
+    <string name="bn_center">Center</string>
+    <string name="button3">Run Dialer</string>
+    <string name="button4">Run Browser</string>
+</resources>

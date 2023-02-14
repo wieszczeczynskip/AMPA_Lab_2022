@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pozycja1"
+        android:icon="@android:drawable/btn_star"
+        android:title="Domyślny"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/pozycja2"
+        android:icon="@android:drawable/btn_star"
+        android:title="Inny" />
+    <item
+        android:id="@+id/pozycja3"
+        android:icon="@android:drawable/btn_star"
+        android:title="Indywidualny" />
+    <item
+        android:id="@+id/pozycja7"
+        android:icon="@android:drawable/btn_star"
+        android:title="Submenu" >
+        <menu>
+            <item
+                android:id="@+id/pozycja4"
+                android:icon="@android:drawable/btn_star"
+                android:title="Pozycja 4" />
+            <item
+                android:id="@+id/pozycja5"
+                android:icon="@android:drawable/btn_star"
+                android:title="Pozycja 5" />
+            <item
+                android:id="@+id/pozycja6"
+                android:icon="@android:drawable/btn_star"
+                android:title="Pozycja 6" />
+        </menu>
+    </item>
+</menu>

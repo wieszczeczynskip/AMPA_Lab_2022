@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AMPA_4</string>
+    <string name="fragment1text">Fragment 1</string>
+    <string name="fragment2text">Fragment 2</string>
+    <string name="ratingBar">Rating Bar</string>
+    <string name="radioButton1">Option 1</string>
+    <string name="radioButton2">Option 2</string>
+    <string name="showResult">Show result</string>
+    <string name="exampleFSi">Font size</string>
+    <string name="exampleFSt">Font style</string>
+    <string name="exampleC">Color</string>
+    <string name="text">Text</string>
+    <string name="go">Go</string>
+    <string name="set">Set</string>
+    <string name="bold">Bold</string>
+    <string name="italics">Italics</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AMPA_5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_title">Nav</string>
+    <string name="menu1">Primary</string>
+    <string name="menu2">List 1</string>
+    <string name="menu3">List 2</string>
+    <string name="menu4">Swipe</string>
+    <string name="def_txt">asdasdasd</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/small"
+            android:title="@string/small" />
+        <item
+            android:id="@+id/large"
+            android:title="@string/large" />
+        <item
+            android:id="@+id/medium"
+            android:title="@string/medium" />
+    </group>
+</menu>

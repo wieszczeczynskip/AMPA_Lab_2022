@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/center_frag">
+
+    <fragment
+        android:id="@+id/left_frag"
+        android:name="com.example.ampa_lab_4.FragmentLeft"
+        android:label="fragment_left"
+        tools:layout="@layout/fragment_left" >
+        <action
+            android:id="@+id/action_left_frag_to_center_frag"
+            app:destination="@id/center_frag" />
+    </fragment>
+    <fragment
+        android:id="@+id/center_frag"
+        android:name="com.example.ampa_lab_4.FragmentCenter"
+        android:label="fragment_center"
+        tools:layout="@layout/fragment_center" >
+        <action
+            android:id="@+id/action_center_frag_to_right_frag"
+            app:destination="@id/right_frag" />
+    </fragment>
+    <fragment
+        android:id="@+id/right_frag"
+        android:name="com.example.ampa_lab_4.FragmentRight"
+        android:label="fragment_right"
+        tools:layout="@layout/fragment_right" >
+        <action
+            android:id="@+id/action_right_frag_to_rightright_frag"
+            app:destination="@id/rightright_frag" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_to_fragCenter"
+        app:destination="@id/center_frag" />
+    <action
+        android:id="@+id/action_global_to_fragLeft"
+        app:destination="@id/left_frag" />
+    <action
+        android:id="@+id/action_global_to_fragRight"
+        app:destination="@id/right_frag" />
+    <fragment
+        android:id="@+id/rightright_frag"
+        android:name="com.example.ampa_lab_4.FragmentRightRight"
+        android:label="fragment_right_right"
+        tools:layout="@layout/fragment_right_right" >
+        <action
+            android:id="@+id/action_rightright_frag_to_left_frag"
+            app:destination="@id/left_frag" />
+        <action
+            android:id="@+id/action_rightright_frag_to_center_frag"
+            app:destination="@id/center_frag" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_rightright_frag"
+        app:destination="@id/rightright_frag" />
+</navigation>

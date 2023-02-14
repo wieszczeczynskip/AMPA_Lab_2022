@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/asdasd"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/menu1" />
+        <item
+            android:id="@+id/primaryFragment"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/menu1" />
+        <item
+            android:id="@+id/list1Fragment"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/menu2" />
+        <item
+            android:id="@+id/list2Fragment"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/menu3" />
+        <item
+            android:id="@+id/swipeFragment"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/menu4" />
+    </group>
+</menu>
